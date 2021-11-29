@@ -32,7 +32,6 @@ public class Main {
  
 		SuperDepartment techie=new TechDepartment();
 		printService.printingStatement(techie.deparmentName());
-		printService.printingStatement(techie.getTechStackInformation());
 		printService.printingStatement(techie.getTodaysWork());
 		printService.printingStatement(techie.getWorkDeadLine());
 		printService.printingStatement(techie.getTechStackInformation());
